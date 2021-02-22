@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-common/proprietary/vendor/firmware/ts/venus_synaptics_VENS18100_lg.img:$(TARGET_COPY_OUT_VENDOR)/firmware/ts/venus_synaptics_VENS18100_lg.img \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.hi6250.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1 \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1.1 \
@@ -63,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libhilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhilog.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.hi6250.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1 \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1.1 \
