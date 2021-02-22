@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-common/proprietary/vendor/firmware/ts/venus_synaptics_VENS11140_ebbg.img:$(TARGET_COPY_OUT_VENDOR)/firmware/ts/venus_synaptics_VENS11140_ebbg.img \
     vendor/huawei/hi6250-common/proprietary/vendor/firmware/ts/venus_synaptics_VENS18100_lg.img:$(TARGET_COPY_OUT_VENDOR)/firmware/ts/venus_synaptics_VENS18100_lg.img \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
@@ -59,6 +60,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1.1 \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libOpenCLFoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCLFoundation.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libSR_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSR_opencl.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/libasd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasd.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/libaudio_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_custom.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libc_sec_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc_sec_hisi.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libc_sec_hisi_connectivity.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc_sec_hisi_connectivity.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libc_secshared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc_secshared.so \
@@ -66,10 +69,20 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libgralloc_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_ext.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libhiion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhiion.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libhilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhilog.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/libhivwservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhivwservice.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhuaweiprocessing.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/libhwlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwlog.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/libimonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimonitor.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/libmax98925.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmax98925.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/libnvme.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvme.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libpf_customize_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_customize_hisi.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libpf_oneimage_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_oneimage_hisi.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_rotate_hisi.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/libtas2560.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtas2560.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/libtfa9895.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa9895.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liboffloadvisualizer.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
@@ -77,6 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1.1 \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libOpenCLFoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCLFoundation.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libSR_opencl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSR_opencl.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libasd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasd.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libaudio_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_custom.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libc_sec_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc_sec_hisi.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libc_sec_hisi_connectivity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc_sec_hisi_connectivity.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libc_secshared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc_secshared.so \
@@ -84,6 +99,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libgralloc_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_ext.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libhiion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhiion.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libhilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhilog.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libhivwservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhivwservice.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhuaweiprocessing.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libhwlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwlog.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libimonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimonitor.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libmax98925.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmax98925.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libnvme.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvme.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libpf_customize_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_customize_hisi.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libpf_oneimage_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_oneimage_hisi.so \
-    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_rotate_hisi.so
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_rotate_hisi.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libtas2560.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtas2560.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/libtfa9895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfa9895.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/liboffloadvisualizer.so
