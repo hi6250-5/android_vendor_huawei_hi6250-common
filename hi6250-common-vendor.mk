@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.hi6250.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib/hw/sensors.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libHisiExtendedExtractor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHisiExtendedExtractor.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1 \
@@ -94,6 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.hi6250.so \
+    vendor/huawei/hi6250-common/proprietary/vendor/lib64/hw/sensors.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.hi6250.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libHisiExtendedExtractor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHisiExtendedExtractor.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/huawei/hi6250-common/proprietary/vendor/lib64/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1 \
