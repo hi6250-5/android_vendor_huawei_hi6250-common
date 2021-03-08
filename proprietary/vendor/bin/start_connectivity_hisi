@@ -55,7 +55,7 @@ function mk_dirs()
 
     chmod_retry /dev/hwfm system system
     chmod_retry /dev/hwgnss system system
-    chmod_retry /dev/hwbt bluetooth net_bt
+    chmod_retry /dev/hwbt bluetooth bluetooth
     chmod_retry /dev/hwnfc nfc nfc
     chmod_retry /dev/hwir system system
 
@@ -93,7 +93,7 @@ function mk_dirs()
     chmod 660 /dev/chrAppWifi
     chown wifi:wifi /dev/chrAppWifi
     chmod 664 /dev/chrAppBt
-    chown bluetooth:net_bt /dev/chrAppBt
+    chown bluetooth:bluetooth /dev/chrAppBt
     chmod 660 /dev/chrAppGnss
     chown system:system /dev/chrAppGnss
 
